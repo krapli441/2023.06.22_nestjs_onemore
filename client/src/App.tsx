@@ -7,7 +7,9 @@ export default function App() {
       <form>
         <input placeholder="성을 입력해주세요"></input>
         <input placeholder="이름을 입력해주세요"></input>
-        <button type="submit" placeholder="전송"></button>
+        <button type="submit" placeholder="전송">
+          전송
+        </button>
       </form>
     </>
   );
