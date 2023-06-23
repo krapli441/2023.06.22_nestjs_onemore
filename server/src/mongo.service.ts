@@ -4,13 +4,6 @@ import { Model } from 'mongoose';
 import { User } from './mongo';
 
 @Injectable()
-export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
-}
-
-@Injectable()
 export class UserService {
   constructor(@InjectModel(User.name) private userModel: Model<User>) {}
 
