@@ -9,6 +9,7 @@ export class UserController {
 
   @Get()
   async getUsers(): Promise<User[]> {
+    console.log('잘 작동하는지 확인');
     return this.userService.getUsers();
   }
 
